@@ -1,9 +1,61 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title> Dhakads.com </title>
-  </head>
-  <body>
-    <h1> Coming Soon! </h1>
-  </body>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+		<title>Dhakads.com</title>
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script src="javascripts/jquery.slimbox2/jquery.slimbox2.js" type="text/javascript"></script>
+    <script src="javascripts/jquery.pwi.js" type="text/javascript"></script>
+
+    <link href="javascripts/jquery.slimbox2/jquery.slimbox2.css" rel="stylesheet" type="text/css"/>
+    <link href="stylesheets/pwi.css" rel="stylesheet" type="text/css"/>
+    <link href="stylesheets/960grid.css" rel="stylesheet" type="text/css"/>
+
+
+    <script type="text/javascript">
+	    	$(document).ready(function() {
+
+				var settings = {
+					username: 'dhakadsdotcom',
+          mode: 'album',
+          album: 'Shishoda',
+          maxresults: 20,
+          thumbSize: 144,
+          thumbCrop: 1,
+          showAlbumTitles: true,  //-- Display title underneath album thumbs
+          showAlbumdate: true,    //-- Display date underneath album thumbs
+          showAlbumPhotoCount: true,//-- Display amount of photo's in album underneath album thumb
+          showAlbumDescription: false,//-- Display album description on photo page
+          showAlbumLocation: false,//-- Display location (if specified) of album in album description on photo page
+          showSlideshowLink: true,//-- Display link to slideshow (native Picasa Web Album slideshow) on photo page
+          showPhotoCaption: false,//-- Show caption underneath photo thumb (not recommended to prevent layout issues)
+          showPhotoDate: true,//-- Show photo date in caption
+          showPager: 'both',
+          labels: {photo:"photo", //-- override labels, to translate into your required language
+            photos: "photos",
+            albums: "Back to albums",
+            slideshow: "Display slideshow",
+            loading: "Loading... ",
+            page: "Page",
+            prev: "Previous",
+            next: "Next",
+            devider: "|"
+          }
+				};
+
+
+		    $("#photo_gallery").pwi(settings);
+		    });
+		</script>
+	</head>
+	<body>
+	<div class="container_12">
+    <div id="header" class="grid_12">
+      <h3> Album: Acharya Mahashramanji's visit to Shishoda </h3>
+    </div>
+
+    <div id="photo_gallery" class="grid_12"></div>
+  </div>
+	</body>
 </html>
