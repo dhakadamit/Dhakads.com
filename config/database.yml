@@ -6,7 +6,7 @@ development:
   pool: 5
   timeout: 5000
 
-test:
+test: &test
   adapter: mysql
   database: dhakads_test
   user: root
@@ -19,3 +19,6 @@ production:
   database: db/production.sqlite3
   pool: 5
   timeout: 5000
+
+cucumber:
+  <<: *test
