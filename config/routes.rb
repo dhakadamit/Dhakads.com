@@ -1,3 +1,3 @@
 DhakadsCom::Application.routes.draw do
-  resources :people
+#  resources :people
 end
