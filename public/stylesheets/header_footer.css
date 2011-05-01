@@ -8,7 +8,7 @@ body {
 
 .header {
 /* header search box */
-  background-color: #333333; /* Profile Box classes */
+  background-color: #3274d0; /* Profile Box classes */
 }
 
 .header .logo_cont {
@@ -19,7 +19,7 @@ body {
 }
 
 .footer {
-  background: #333333;
+  background: #3274d0;
   color: white;
 }
 
