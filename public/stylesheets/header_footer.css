@@ -1,0 +1,30 @@
+/*
+  Styles for header and footer section of the page, both these sections of the page will remain unchanged most of the
+  time, but some additions may happen depending of the page for example logged-in/not-loggedin state.
+*/
+body {
+  background-image: url("/images/Middle-Background.png");
+}
+
+.header {
+/* header search box */
+  background-color: #333333; /* Profile Box classes */
+}
+
+.header .logo_cont {
+  text-align: center;
+  width: 250px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.footer {
+  background: #333333;
+  color: white;
+}
+
+.creator {
+  padding-top: 20px;
+}
+
+

@@ -639,3 +639,19 @@ body {
 *:first-child+html .clearfix {
 	zoom: 1;
 }
+
+/* footer - stick to the bottom */
+
+html, body, #wrapper {height: 100%;}
+
+body > #wrapper { height: auto; min-height: 100%; }
+
+/* must be same height as the footer */
+#content { overflow: auto; padding-bottom: 50px; }
+
+#footer {
+	position: relative;
+	margin-top: -50px; /* negative value of footer height */
+	height: 50px;
+	clear: both;
+}

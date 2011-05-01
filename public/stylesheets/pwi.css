@@ -6,7 +6,7 @@
 
 .pwi_container{
 	color: #000000;
-	background-color: #FFFFFF;
+	background-image: url("/images/Middle-Background.png");
 	font-family: Arial;
 	font-size: 8pt;
 	padding: 5px;
@@ -55,6 +55,8 @@
 .pwi_album_backlink{
 	text-decoration: underline;
 	cursor: pointer;
+  margin: 5px;
+  font-size: 10pt;
 }
 
 .pwi_album img{
@@ -66,6 +68,7 @@
 	margin: 1em;
 	text-align: center;
 	border: 0px dotted white;
+  height: 100px;
 }
 .pwi_photo img{
 	border: 0px solid #7F7F7F;
@@ -86,6 +89,19 @@
 	margin: 5px;
 
 }
+
+.pwi_prevpage {
+  background-image: url("/images/previous-button-previous.png");
+  width: 19px;
+  height: 14px;
+}
+
+.pwi_nextpage {
+  background-image: url("/images/previous-button-next.png");
+  width: 19px;
+  height: 14px;
+}
+
 .link{
 	text-decoration: underline;
 	cursor: pointer;
