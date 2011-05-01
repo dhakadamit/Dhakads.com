@@ -12,3 +12,7 @@ group :development, :test do
   gem 'cucumber-rails', "0.3.2"
   gem 'database_cleaner', "0.6.0.rc.3"
 end
+
+group :test do
+  gem "shoulda", "2.11.3"
+end
