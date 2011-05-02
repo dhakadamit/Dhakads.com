@@ -9,7 +9,7 @@
 	background-image: url("/images/Middle-Background.png");
 	font-family: Arial;
 	font-size: 8pt;
-	padding: 5px;
+	padding: 20px 5px 10px 5px;
 }
 
 .pwi_container a{
@@ -21,8 +21,7 @@
 	color: #000000;
 	font-family: Arial;
 	font-size: 8pt;
-	background-color: #7F7F7F;
-	padding: 10px;
+	padding: 5px 5px 5px 10px;
 
 }
 .pwi_album_description .title{
@@ -46,10 +45,10 @@
 
 .pwi_album{
 	float: left;
-	margin: 1em;
 	text-align: center;
 	color: #000000;
 	cursor: pointer;
+  padding: 15px 27px 15px 27px;
 }
 
 .pwi_album_backlink{
@@ -60,7 +59,8 @@
 }
 
 .pwi_album img{
-	border: 0px solid #7F7F7F;
+  background: url("/images/shadow-1000x1000.gif") no-repeat right bottom;
+  padding: 5px 10px 10px 5px;
 }
 
 .pwi_photo{
@@ -70,8 +70,9 @@
 	border: 0px dotted white;
   height: 100px;
 }
+
 .pwi_photo img{
-	border: 0px solid #7F7F7F;
+	border: 1px ridge #aaaaaa;
 }
 
 .pwi_photo a{
@@ -81,8 +82,7 @@
 .pwi_pager{
 	clear: both;
   font-size: 10pt;
-  padding-bottom: 10px;
-  padding-top: 10px;
+  padding: 5px;
 }
 .pwi_prevpage, .pwi_nextpage, .pwi_pager_page, .pwi_pager_current{
 	float: left;

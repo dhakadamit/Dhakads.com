@@ -644,7 +644,7 @@ body {
 
 html, body, #wrapper {height: 100%;}
 
-body > #wrapper { height: auto; min-height: 100%; }
+#wrapper { height: auto; min-height: 100%; }
 
 /* must be same height as the footer */
 #content { overflow: auto; padding-bottom: 50px; }

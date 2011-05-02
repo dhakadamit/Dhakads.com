@@ -4,6 +4,7 @@
 */
 body {
   background-image: url("/images/Middle-Background.png");
+  margin: 0px;
 }
 
 .header {
@@ -14,7 +15,6 @@ body {
 .header .logo_cont {
   text-align: center;
   width: 250px;
-  margin-top: 10px;
   margin-bottom: 10px;
 }
 
@@ -25,6 +25,10 @@ body {
 
 .creator {
   padding-top: 20px;
+}
+
+.logo {
+  border: none;
 }
 
 
