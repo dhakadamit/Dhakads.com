@@ -26,7 +26,7 @@
 }
 .pwi_album_description .title{
 	color: #000000;
-	font-size: 12pt;
+	font-size: 15pt;
 	margin-top: 10px;
 
 }
@@ -54,8 +54,22 @@
 .pwi_album_backlink{
 	text-decoration: underline;
 	cursor: pointer;
-  margin: 5px;
+  margin: 5px 27px 5px 10px;
   font-size: 10pt;
+  overflow: hidden;
+  float: right;
+}
+
+.pwi_album_backlink .pwi_album_back_image {
+  background-image: url("/images/previous-button-previous.png");
+  background-repeat: no-repeat;
+  height: 14px;
+  width: 19px;
+}
+
+.pwi_album_back_image, .pwi_album_back_text {
+  float: left;
+  margin-right: 5px;
 }
 
 .pwi_album img{
@@ -87,7 +101,6 @@
 .pwi_prevpage, .pwi_nextpage, .pwi_pager_page, .pwi_pager_current{
 	float: left;
 	margin: 5px;
-
 }
 
 .pwi_prevpage {

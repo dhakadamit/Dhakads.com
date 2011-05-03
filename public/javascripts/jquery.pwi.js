@@ -200,7 +200,8 @@
             $at = (j.feed.title === "undefined" || settings.albumTitle.length > 0) ? settings.albumTitle : j.feed.title.$t;
             $scPhotos = $("<div/>");
             if (settings.mode != 'album' && settings.mode != 'keyword') {
-                tmp = $("<div class='pwi_album_backlink'>" + settings.labels.albums + "</div>").bind('click.pwi', function (e) {
+                var album_backlink = "<div class='pwi_album_backlink'><div class='pwi_album_back_image'></div><div class='pwi_album_back_text'>" + settings.labels.albums + "</div></div>";
+                tmp = $(album_backlink).bind('click.pwi', function (e) {
                     e.stopPropagation();
                     getAlbums();
                     return false;
