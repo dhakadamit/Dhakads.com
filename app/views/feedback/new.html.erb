@@ -1,0 +1,17 @@
+<div class="grid_12">&nbsp;</div>
+<div class="grid_12">&nbsp;</div>
+
+<div class="grid_8">
+  <h3 class="grid_8"> Report a problem: </h3>
+  <div class="grid_8 notice"><%= flash[:notice] %></div>
+  <% form_for :feedback, @feedback, :url => feedback_index_path do |f| %>
+    <%= f.label :name, "Your full name: ", :class => "grid_2 omega" %>
+    <%= f.text_field :name, :class => "grid_5 omega" %>
+    <%= f.label :name, "Problem description: ", :class => "grid_2 omega" %>
+    <%= f.text_area :comment, :cols => "65", :rows => "12", :class => "grid_5 omega" %>
+
+    <div class="grid_2">&nbsp;</div>
+    <%= f.submit "Submit", :class => "primary_button" %>
+  <% end %>
+</div>
+

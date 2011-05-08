@@ -1,3 +1,4 @@
 DhakadsCom::Application.routes.draw do
-#  resources :people
+  resources :feedback, :only => [:new, :create]
+# resources :people
 end

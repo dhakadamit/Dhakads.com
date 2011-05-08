@@ -1,0 +1,28 @@
+form input {
+  margin-bottom: 15px;
+}
+
+form textarea {
+  margin-bottom: 15px;
+}
+
+input.primary_button {
+  width: 160px;
+}
+
+.notice {
+  color: #cc0000;
+  margin-bottom: 15px;
+  font-size: 10pt;
+}
+
+.nav_bar a {
+  color: #ffffff;
+  padding-left: 15px;
+}
+
+.nav_bar {
+  text-align: right;
+  padding-top: 45px;
+
+}
